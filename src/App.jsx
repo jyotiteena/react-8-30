@@ -18,7 +18,7 @@ const App = () => {
             <ClassProps/> */}
             {/* <RenderApi/> */}
             {/* <OnClickEvent/> */}
-            {/* <Form/> */}
+            <Form/>
             <SingleFuncForm/>
         </>
     )
