@@ -2,6 +2,7 @@ import ClassCounter from "./classComponent/ClassCounter"
 import ClassProps from "./classComponent/ClassProps"
 import OnClickEvent from "./Events/OnClickEvent"
 import Form from "./HandleForm/Form"
+import ReactHookForm from "./HandleForm/ReactHookForm"
 import SingleFuncForm from "./HandleForm/SingleFuncForm"
 import Counter from "./hook/Counter"
 import RenderApi from "./hook/RenderApi"
@@ -18,8 +19,9 @@ const App = () => {
             <ClassProps/> */}
             {/* <RenderApi/> */}
             {/* <OnClickEvent/> */}
-            <Form/>
-            <SingleFuncForm/>
+            {/* <Form/>
+            <SingleFuncForm/> */}
+            <ReactHookForm/>
         </>
     )
 }
